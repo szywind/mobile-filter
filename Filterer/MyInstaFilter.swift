@@ -134,6 +134,8 @@ public class MyInstaFilter{
 
         let imageRef = context!.makeImage()
         let newImage = UIImage(cgImage: imageRef!, scale: 1.0, orientation: image.imageOrientation)
+        
+
         return newImage
 
 /*
